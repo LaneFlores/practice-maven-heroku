@@ -42,4 +42,18 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>CustomDev Archiva</id>
+            <url>http://codex-nocal.star2star.io:8081/repository/internal</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>CustomDev Archiva</id>
+            <url>http://codex-nocal.star2star.io:8081/repository/internal</url>
+        </repository>
+    </distributionManagement>
+
 </project>
