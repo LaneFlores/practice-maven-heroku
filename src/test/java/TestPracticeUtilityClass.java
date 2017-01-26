@@ -1,6 +1,4 @@
-package com.practice.heroku.util;
-
-
+import com.practice.heroku.util.PracticeUtilityClass;
 import org.junit.Assert;
 import org.junit.Test;
 
