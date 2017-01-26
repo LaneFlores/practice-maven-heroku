@@ -6,6 +6,6 @@ public class PracticeUtilityClass {
         // HOWEVER, to test our continuous integration, we're going to break it.
 
         return x; // This line breaks it.
-        //return Math.max(x, y); // This line fixes it.
+        //return Math.max(x, y); // This line fixes it. :)
     }
 }
