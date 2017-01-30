@@ -13,8 +13,13 @@ public class MainController {
 
     @RequestMapping("/")
     @ResponseBody
-    String home() {
+    String index() {
+        return "Index page loaded successfully.";
+    }
 
+    @RequestMapping("/util")
+    @ResponseBody
+    String utilClass() {
         return UtilityClass.getString();
     }
 
