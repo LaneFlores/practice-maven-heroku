@@ -1,5 +1,6 @@
 package com.practice.heroku;
 
+import com.practice.library.UtilityClass;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
@@ -14,7 +15,7 @@ public class MainController {
     @ResponseBody
     String home() {
 
-        return "Hello World!";
+        return UtilityClass.getString();
     }
 
     public static void main(String[] args) throws Exception {
